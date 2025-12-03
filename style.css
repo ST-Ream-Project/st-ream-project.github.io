@@ -1,25 +1,27 @@
         body{
             background-color: #ffffff;
-            margin: 0%;
+            margin: 0;
         }
         a{
             text-decoration: none;
         }
         #site-title{
             height: fit-content;
-            margin-top: 0.5cap;
-            margin-bottom: 0.5cap;
         }
+
+        #site-name{
+            margin-left: 20px;
+        }
+
         #header-area{
-            background-color: aqua;
+            background-color: black;
+            height: auto;
         }
         #header-content-wrapper{
             display: flex;
         }
         #top-menu{
             margin-left: auto;
-            /* margin-top:auto;
-            margin-bottom: auto; */
             height: auto;
         }
         #top-menu-table {
@@ -27,17 +29,65 @@
             border-spacing: 0;
             height: 100%;
         }
+
+
         .top-menu-content-link{
-            padding-left: 2cap;
-            padding-right: 2cap;
+            padding-left: 2rem;
+            padding-right: 2rem;
             height: auto;
             background-color: black;            
+            transition: background-color 0.3s ease;
         }
+
+        .top-menu-content-link:hover{
+            background-color: azure;
+        }
+
         .top-menu-content-link a{
             color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%;
         }
 
-
+        #content{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        
         #footer{
             background-color: #cccccc;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #footer-links{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table#footer-links-contents{
+            border-collapse: separate;
+            border-spacing: 70px 1px;
+        }
+
+    hr {
+        border: none;          /* デフォルトの線を消す */
+        border-top: 2px solid #aaaaaa; /* 上側に線を描く */
+        margin: 20px 30px 0px 30px;        /* 上下の余白 */
+    }
+
+
+        #footer-logo{
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #footer-logo h3{
+            margin-left: auto;
+            margin-right: auto;
         }
