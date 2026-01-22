@@ -9,7 +9,7 @@
             <nav id="top-menu">
                 <div id="top-menu-nav">
                     <div class="nav-item"><a href="#">Home</a></div>
-                    <div class="nav-item"><a href="#news-section">News</a></div>
+                    <div class="nav-item"><a href="{{ '/news.html' | relative_url }}">News</a></div>
                     
                     <!-- About メガメニュー実装部分 -->
                     <div class="nav-item">
@@ -19,7 +19,7 @@
                                 <div class="mega-column">
                                     <h3>Project Vision</h3>
                                     <ul>
-                                        <li><a href="#">STReamについて<span>私たちのミッションとコアバリュー</span></a></li>
+                                        <li><a href="{{ 'about.html' | relative_url }}">STReamについて<span>私たちのミッションとコアバリュー</span></a></li>
                                         <li><a href="#">ビジョン 2030<span>10年後のソフトテニスの未来予想図</span></a></li>
                                         <li><a href="#">プロジェクトメンバー<span>志を共にするチームの紹介</span></a></li>
                                     </ul>
@@ -44,8 +44,8 @@
                         </div>
                     </div>
 
-                    <div class="nav-item"><a href="#roadmap-section">Roadmap</a></div>
-                    <div class="nav-item"><a href="#">Contact</a></div>
+                    <div class="nav-item"><a href="{{ '/roadmap.html' | relative_url }}">Roadmap</a></div>
+                    <div class="nav-item"><a href="{{ '/contact.html' | relative_url }}">Contact</a></div>
                 </div>
             </nav>
         </div>
