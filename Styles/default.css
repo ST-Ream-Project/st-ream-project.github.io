@@ -790,3 +790,11 @@
             .form-container { padding: 1.5rem; }
         }
     
+.github-icon {
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+
+.nav-item:hover .github-icon {
+    transform: scale(1.1);
+}
